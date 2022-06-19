@@ -1,4 +1,3 @@
-import React from 'react'
 import { links } from '../data/navLinks'
 
 function Links(props: { isOpen: boolean }) {
@@ -11,7 +10,7 @@ function Links(props: { isOpen: boolean }) {
 		>
 			{links.map((link, i) => (
 				<a
-					href=""
+					href="/"
 					key={i}
 					className="px-2 py-2 rounded-lg  hover:bg-red-600 bg-gradient-to-r from-red-600 to-red-500 hover:scale-x-105 hover:translate-x-4 transition"
 				>

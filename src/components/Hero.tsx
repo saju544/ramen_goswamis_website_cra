@@ -1,4 +1,4 @@
-import React from 'react'
+import heroImage from '../images/hero.jpg'
 
 function Hero() {
 	return (
@@ -10,7 +10,7 @@ function Hero() {
 						SWAYAM MADHAVAN INTERNATIONAL MULTIDISCIPLINARY
 						MULTILINGUAL JOURNAL
 					</h1>
-					<img src="src\images\hero.jpg" alt="hero image" />
+					<img src={heroImage} alt="hero" />
 				</div>
 				<div className="px-2 pb-4 shadow-2xl rounded-3xl">
 					<h1 className="text-orange-600 font-bold text-5xl grad-bg mb-2">
